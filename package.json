@@ -16,23 +16,11 @@
     "start": "react-scripts --max_old_space_size=8128 start ",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
       "react-app"
-    ],
-    "overrides": [
-      {
-        "files": [
-          "**/*.stories.*"
-        ],
-        "rules": {
-          "import/no-anonymous-default-export": "off"
-        }
-      }
     ]
   },
   "browserslist": {
@@ -48,12 +36,6 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.4.0-beta.23",
-    "@storybook/addon-essentials": "^6.4.0-beta.23",
-    "@storybook/addon-links": "^6.4.0-beta.23",
-    "@storybook/node-logger": "^6.4.0-beta.21",
-    "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.4.0-beta.23",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.33",
