@@ -10,7 +10,8 @@
     "caniuse-lite": "^1.0.30001278",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
+    "react-scripts": "^4.0.3",
+    "serve": "^13.0.2"
   },
   "resolutions": {
     "**/immer": "^9.0.6",
@@ -22,9 +23,10 @@
   },
   "scripts": {
     "start": "react-scripts --max_old_space_size=4096 start",
-    "build": "react-scripts build",
+    "build": "react-scripts --max_old_space_size=4096 build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "serve -S build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +50,8 @@
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
+    "gh-pages": "^3.2.3",
+    "prettier": "^2.4.1",
     "typescript": "^4.4.4",
     "yarn-audit-fix": "^7.2.0"
   }
