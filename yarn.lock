@@ -3589,13 +3589,10 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-chalk@*, chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
-  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
+chalk@*, chalk@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.0.0.tgz#bd96c6bb8e02b96e08c0c3ee2a9d90e050c7b832"
+  integrity sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==
 
 chalk@2.4.1:
   version "2.4.1"
@@ -3619,6 +3616,14 @@ chalk@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
   integrity sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.0.0, chalk@^4.1.0:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -13276,10 +13281,10 @@ yargs@^15.4.1:
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
 
-yarn-audit-fix@^7.2.2:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/yarn-audit-fix/-/yarn-audit-fix-7.2.2.tgz#0d4b077d2ccbceaba05c48c7c0221662696f3423"
-  integrity sha512-1AdVZ66L0IjMndiOGQgPXp2lP5ez5On6qxUznXJ0tmhyN5cjqLVpqhS8IT1mVmFz6iOQEEGrfIHUi52HsdTTbA==
+yarn-audit-fix@^7.2.3:
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/yarn-audit-fix/-/yarn-audit-fix-7.2.3.tgz#052737553705299ca4cdae64d96a3c4e0144025f"
+  integrity sha512-dKit0D+tX31O4YKbOd/fuO+UvIZqzhTPVTv7kug3qq/j8x8N00kklwL3VJbr1VLvUK1FN9ejhdpHLea4N8xzEg==
   dependencies:
     "@types/find-cache-dir" "^3.2.1"
     "@types/fs-extra" "^9.0.13"
@@ -13287,7 +13292,7 @@ yarn-audit-fix@^7.2.2:
     "@types/semver" "^7.3.9"
     "@types/yarnpkg__lockfile" "^1.1.5"
     "@yarnpkg/lockfile" "^1.1.0"
-    chalk "^4.1.2"
+    chalk "^5.0.0"
     commander "^8.3.0"
     find-cache-dir "^3.3.2"
     find-up "^6.2.0"
