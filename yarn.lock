@@ -2459,6 +2459,11 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
+
 aria-query@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/aria-query/-/aria-query-4.2.2.tgz#0d2ca6c9aceb56b8977e9fed6aed7e15bbd2f83b"
@@ -6977,6 +6982,13 @@ js-yaml@^3.13.1:
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
+
+js-yaml@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
+  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
+  dependencies:
+    argparse "^2.0.1"
 
 jsdom@^16.4.0:
   version "16.7.0"
@@ -11915,10 +11927,10 @@ yargs@^15.4.1:
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
 
-yarn-audit-fix@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/yarn-audit-fix/-/yarn-audit-fix-8.0.1.tgz#5bf4420a1fdd1d1160fb1b6f263d3cece7d6fe3d"
-  integrity sha512-r4f904/sbH4qbpdz1tiImmN16hVUrIc3Bvr4xYxulVF4Jc78wxSp0TuzLhXPkJC+iVLP+axXQaC3gSk3HaUArA==
+yarn-audit-fix@^9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/yarn-audit-fix/-/yarn-audit-fix-9.0.3.tgz#fc7d971f424263e27f1387520c12427021dbebcc"
+  integrity sha512-HNNighDW2fN16Z8ryApRdIdP9bh1GNyqBdBYagITe3ZT8kvJyrJuKtb9RQxtEsrs5WeJk4FURcqxJVrbQ5J4TA==
   dependencies:
     "@types/find-cache-dir" "^3.2.1"
     "@types/fs-extra" "^9.0.13"
@@ -11932,6 +11944,7 @@ yarn-audit-fix@^8.0.1:
     find-up "^6.2.0"
     fs-extra "^10.0.0"
     globby "^12.0.2"
+    js-yaml "^4.1.0"
     lodash-es "^4.17.21"
     pkg-dir "^6.0.1"
     semver "^7.3.5"
