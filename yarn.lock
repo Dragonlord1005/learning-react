@@ -3683,7 +3683,7 @@ colorette@^2.0.10:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.16.tgz#713b9af84fdb000139f04546bd4a93f62a5085da"
   integrity sha512-hUewv7oMjCp+wkBv5Rm0v87eJhq4woh5rSR+42YSQJKecCqgIqNkZ6lAlQms/BwHPJA5NKMRlpxPRv0n8HQW6g==
 
-colors@^1.4.0:
+colors@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
@@ -9284,14 +9284,14 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-synp@^1.9.8:
-  version "1.9.8"
-  resolved "https://registry.yarnpkg.com/synp/-/synp-1.9.8.tgz#449810f0681f8fa82988b0c8ae5f6a601b637fc7"
-  integrity sha512-wpbvmr9noQM0Us/dmR/49ldpIj2J1f/cFZnSNZqF3bMk1NUedn2MEXoP4wNfH4gSaL5YV0TSqHmcf2mUmYFmXg==
+synp@^1.9.9:
+  version "1.9.9"
+  resolved "https://registry.yarnpkg.com/synp/-/synp-1.9.9.tgz#0f7c2169ed8f4a0f7a5e88bf075f8c03facdb998"
+  integrity sha512-bizdSf8m/J5pQKElXKf0v0HaLLHc6aYuVmoFbtH26WOzUyLQlx/hXaqgTs9/yPcM9siPd7se/iaunCEk89uIZg==
   dependencies:
     "@yarnpkg/lockfile" "^1.1.0"
     bash-glob "^2.0.0"
-    colors "^1.4.0"
+    colors "1.4.0"
     commander "^7.2.0"
     eol "^0.9.1"
     lodash "4.17.21"
@@ -10181,10 +10181,10 @@ yargs@^16.2.0:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
-yarn-audit-fix@^9.0.4:
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/yarn-audit-fix/-/yarn-audit-fix-9.0.4.tgz#290c25df6d454363a2facfd6bc7a556a39edd1fb"
-  integrity sha512-rME0OxmFE3mHCqC3m+/4truo4DiiNM0epNF1Su3c3kldlGhPnoHEw+On9C7VYGXmV9q5bTwYRlgKLmvrYPIPXQ==
+yarn-audit-fix@^9.0.5:
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/yarn-audit-fix/-/yarn-audit-fix-9.0.5.tgz#1e50f4ee71d0cac125d13d29f4832ac131a29289"
+  integrity sha512-ZDrmStPZISaMEENL7dNU7pfvmQ2ozVOqH43gBgk6SKfsWizcRojYDnQpLvF1ZE4VlvJPjPYGwNhIYYVInCGiHQ==
   dependencies:
     "@types/find-cache-dir" "^3.2.1"
     "@types/fs-extra" "^9.0.13"
@@ -10202,7 +10202,7 @@ yarn-audit-fix@^9.0.4:
     lodash-es "^4.17.21"
     pkg-dir "^6.0.1"
     semver "^7.3.5"
-    synp "^1.9.8"
+    synp "^1.9.9"
     tslib "^2.3.1"
 
 yocto-queue@^0.1.0:
