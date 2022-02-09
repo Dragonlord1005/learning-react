@@ -7,7 +7,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "babel-loader": "8.2.3",
-    "caniuse-lite": "^1.0.30001301",
+    "caniuse-lite": "^1.0.30001310",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^5.0.0",
